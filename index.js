@@ -1,5 +1,6 @@
 import generateName from 'sillyname'; 
 import superheroes from 'superheroes';
+import {randomSuperhero} from 'superheroes';
 
 
 
@@ -13,5 +14,6 @@ function selectAHero(allSpHeroes) {
 
 
 console.log(`Meu nome é: ${sillyName}`);
-console.log(`Eu sou: ${selectAHero(superheroes)}`);
+console.log(`Eu sou : ${selectAHero(superheroes)}`);
+console.log(`Ele é : ${randomSuperhero()}`);
 
