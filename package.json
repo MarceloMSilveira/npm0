@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "I am learning about NPM",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "MarceluS 1lveira",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "sillyname": "^0.1.0"
+  },
+  "dependencies": {
+    "superheroes": "^4.0.0"
   }
 }
